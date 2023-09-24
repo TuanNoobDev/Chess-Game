@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/chessboard-1.0.0.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>TuanNoobDev Chess Game</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Chess Game AI</h1>
+        <h6 class="note">Lưu Ý: AI sẽ có những nước đi hoàn toàn ngẫu nhiên nên việc bạn <br>dành chiến thắng sẽ là 100%</h6>
+        <div class="board" id="board"></div>
+        <div class="buttons">
+            <button class="play-again" id="reset">Reset</button>
+            <!-- <button class="set-pos">Set Position</button> -->
+            <!-- <button class="flip-board">Flip Board</button>  -->
+            <div class="notifications"></div>
+            <button class="btn" id="info">1 VS 1</button>
+            <button class="btn" id="info2">Game rất nhạt</button>
+        </div>
+        <div id="move-history" class="move-history"></div>
+        <h5 class="cre">© 2023 <a target="_blank" href="https://www.facebook.com/TuanNoobDev">TuanNoobDev</a> - All rights reserved.</h5>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/chessboard-1.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
